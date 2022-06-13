@@ -1,87 +1,114 @@
 body {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
 }
 
 #title {
-    background-color: #ff4c68;
-    color: #fff;
+  background-color: #ff4c68;
+  color: #fff;
 }
 
 h1 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 900;
-    font-size: 3rem;
-    line-height: 1.5;
+  font-family: "Montserrat-Black", sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
+h2 {
+  font-family: "Montserrat-Bold", sans-serif;
+  font-weight: 900;
+  font-size: 2rem;
+  line-height: 1.5;
+}
 h3 {
-    font-family: "Montserrat";
-    font-size: 1.5rem;
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 1.5rem;
 }
 
 p {
-    color: #8f8f8f;
+  color: #8f8f8f;
 }
 
 #container-fluid {
-    padding: 3% 15%;
+  padding: 3% 15%;
 }
-
 
 /* Navigation Bar */
 
 .navbar {
-    padding: 0 0 4.5rem;
+  padding: 0 0 4.5rem;
 }
 
 .navbar-brand {
-    font-family: "Ubuntu";
-    font-size: 2.5rem;
-    font-weight: bold;
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
 }
 
 .nav-item {
-    padding: 0 18px;
+  padding: 0 18px;
 }
 
 .nav-link {
-    font-family: "Montserrat-light";
-    font-size: 1.5rem;
+  font-family: "Montserrat-light";
+  font-size: 1.5rem;
 }
-
 
 /* Download Buttons */
 
 .download-button {
-    margin: 5% 3% 5% 0;
+  margin: 5% 3% 5% 0;
 }
-
 
 /* Title Image */
 
 .title-image {
-    width: 60%;
-    transform: rotate(25deg);
+  width: 60%;
+  transform: rotate(25deg);
 }
-
 
 /* Features section */
 
 #features {
-    padding: 7% 15%;
+  padding: 7% 15%;
 }
 
 .feature-box {
-    text-align: center;
-    padding: 5%;
+  text-align: center;
+  padding: 5%;
 }
 
 .icon {
-    color: #ef8172;
-    margin-bottom: 1rem;
+  color: #ef8172;
+  margin-bottom: 1rem;
 }
 
 .icon:hover {
-    color: #ff4c68;
+  color: #ff4c68;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  text-align: center;
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px ;
 }
