@@ -107,11 +107,22 @@ p {
   padding-bottom: 3%;
 }
 
-.press-logo{
-    width: 15%;
-    margin: 20px 20px 50px ;
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
 }
 
-.carousel-item{
+.carousel-item {
   padding: 7% 15%;
+}
+
+/* Prising Section */
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 5%;
 }
