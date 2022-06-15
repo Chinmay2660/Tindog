@@ -30,7 +30,7 @@ p {
 }
 
 #container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
 }
 
 /* Navigation Bar */
@@ -83,7 +83,7 @@ p {
 
 .feature-box {
   text-align: center;
-  padding: 5%;
+  padding: 4.5%;
 }
 
 .icon {
@@ -133,4 +133,52 @@ p {
 
 .pricing-column {
   padding: 3% 5%;
+}
+
+/* CTA Section */
+
+#cta {
+  color: #fff;
+  background-color: #ff4c68;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.cta-heading {
+  font-family: "Montserrat-Black", sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/* Footer Section */
+
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+@media (min-width: 570px) and (max-width: 990px) {
+  #title {
+    text-align: center;
+  }
+  .title-image {
+    position: static;
+    transform: rotate(0);
+    margin: 30px 0 0;
+  }
+}
+
+@media (max-width: 570px) {
+  #title {
+    text-align: center;
+  }
+  .title-image {
+    position: static;
+    transform: rotate(0);
+    margin-bottom: 100px;
+  }
 }
