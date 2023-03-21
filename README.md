@@ -1,17 +1,10 @@
 # Tindog
 
-Tindog is a simple web application built with HTML, CSS, and Bootstrap that allows users to browse and connect with other dog owners in their area. The application includes a user profile page, a search feature, and a messaging system.
+Tindog is a simple web application built with HTML, CSS, and Bootstrap that allows users to browse and connect with other dog owners in their area. 
 
 ## Demo
 
 You can try out the Tindog application live at [TinDog](https://chinmay2660.github.io/Tindog/).
-
-## Features
-
-- Simple and intuitive user interface
-- User profile page with profile picture, bio, and dog breed preferences
-- Search feature to find other dog owners in the user's area
-- Messaging system for users to connect and arrange dog playdates
 
 ## Getting Started
 
