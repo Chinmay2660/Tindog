@@ -1,7 +1,6 @@
 body {
-  font-family: "Montserrat";
-
-  text-align: center;
+    font-family: "Montserrat";
+    text-align: center;
 }
 
 h1,
@@ -10,161 +9,177 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Montserrat";
+    font-family: "Montserrat";
 }
 
 p {
-  color: #8f8f8f;
+    color: #8f8f8f;
 }
 
+
 /* Container Section */
+
 
 /* Sections */
 
 .colored-section {
-  background-color: #ff4c68;
-  color: #fff;
+    background-color: #ff4c68;
+    color: #fff;
 }
 
 .white-section {
-  background-color: #fff;
+    background-color: #fff;
 }
+
 
 /* Headings */
 
 .big-heading {
-  font-family: "Montserrat";
-  font-weight: bold;
-  font-size: 3rem;
-  line-height: 1.5;
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
 }
 
 .section-heading {
-  font-size: 3rem;
-  line-height: 1.5;
-  font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: bold;
 }
+
 
 /* Navigation Bar */
 
 .navbar {
-  padding: 0 0 4.5rem;
+    padding: 0 0 4.5rem;
 }
 
 .navbar-brand {
-  font-family: "Ubuntu";
-  font-size: 2.5rem;
-  font-weight: bold;
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
 }
 
 .nav-item {
-  padding: 0 18px;
+    padding: 0 18px;
 }
 
 .nav-link {
-  font-family: "Montserrat";
-  font-weight: lighter;
-  font-size: 1.5rem;
+    font-family: "Montserrat";
+    font-weight: lighter;
+    font-size: 1.5rem;
 }
 
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
+
 
 /* Download Buttons */
 
 .download-button {
-  margin: 5% 3% 5% 0;
+    margin: 5% 3% 5% 0;
 }
+
+.apple {
+    width: 22.5px;
+}
+
 
 /* Title Section */
 
 #title .container-fluid {
-  text-align: left;
-  padding: 3% 15% 7%;
+    text-align: left;
+    padding: 3% 15% 7%;
 }
+
 
 /* Title Image */
 
 .title-image {
-  width: 45%;
-  transform: rotate(25deg);
-  margin-bottom: -60%;
+    width: 45%;
+    transform: rotate(25deg);
+    margin-bottom: -60%;
 }
 
 .title-img-div {
-  position: relative;
+    position: relative;
 }
+
 
 /* Features section */
 
 #features {
-  position: relative;
-  z-index: 1;
+    position: relative;
+    z-index: 1;
 }
 
 .feature-box {
-  padding: 4.5%;
+    padding: 4.5%;
 }
 
 .feature-title {
-  font-size: 1.5rem;
+    font-size: 1.5rem;
 }
 
 .icon {
-  color: #ef8172;
-  margin-bottom: 1rem;
+    color: #ef8172;
+    margin-bottom: 1rem;
 }
 
 .icon:hover {
-  color: #ff4c68;
+    color: #ff4c68;
 }
+
 
 /* Testimonial Section */
 
 #testimonials {
-  background-color: #ef8172;
+    background-color: #ef8172;
 }
 
 .testimonial-text {
-  font-size: 3rem;
-  line-height: 1.5;
-  font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
 }
 
 .testimonial-image {
-  width: 10%;
-  border-radius: 100%;
-  margin: 20px;
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
 }
 
 #press {
-  background-color: #ef8172;
-  padding-bottom: 3%;
+    background-color: #ef8172;
+    padding-bottom: 3%;
 }
 
 .press-logo {
-  width: 15%;
-  margin: 20px 20px 50px;
+    width: 15%;
+    margin: 20px 20px 50px;
 }
+
 
 /* Pricing Section */
 
 #pricing {
-  padding: 100px;
+    padding: 100px;
 }
 
 .pricing-text {
-  padding: 3% 2%;
-  font-size: 3rem;
-  line-height: 1.5;
+    padding: 3% 2%;
+    font-size: 3rem;
+    line-height: 1.5;
 }
 
 .pricing-column {
-  padding: 3% 5%;
+    padding: 3% 5%;
 }
 
+
 /* CTA Section */
+
 
 /* #cta {
   color: #fff;
@@ -172,27 +187,27 @@ html {
 } */
 
 .social-icon {
-  margin: 20px 10px;
+    margin: 20px 10px;
 }
 
 @media (min-width: 570px) and (max-width: 990px) {
-  #title {
-    text-align: center;
-  }
-  .title-image {
-    position: static;
-    transform: rotate(0);
-    margin: 30px 0 0;
-  }
+    #title {
+        text-align: center;
+    }
+    .title-image {
+        position: static;
+        transform: rotate(0);
+        margin: 30px 0 0;
+    }
 }
 
 @media (max-width: 570px) {
-  #title {
-    text-align: center;
-  }
-  .title-image {
-    position: static;
-    transform: rotate(0);
-    margin-bottom: 100px;
-  }
+    #title {
+        text-align: center;
+    }
+    .title-image {
+        position: static;
+        transform: rotate(0);
+        margin-bottom: 100px;
+    }
 }
